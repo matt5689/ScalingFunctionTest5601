@@ -48,7 +48,7 @@ namespace ScalingFunctionTest5601
 
                 HttpRequestMessage msg = new HttpRequestMessage()
                 {
-                    Method = HttpMethod.Get,
+                    Method = HttpMethod.Get, // test
                     RequestUri = new Uri("https://www.bing.com") /*"https://TrainingScalingFA5601App.azurewebsites.net/api/Function1")*/
                 };
 
